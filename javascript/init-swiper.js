@@ -5,6 +5,7 @@
     var view = document.querySelector('.swiper-container')
     var controller ={
         view:null,
+        swiper:null,
         init:function(view){
             this.view=view
             this.initSwiper()
@@ -20,7 +21,7 @@
             }
         },
         initSwiper: function () {
-            var mySwiper = new Swiper (this.view,this.swiperOptions)
+            this.swiper = new Swiper (this.view,this.swiperOptions)
        }
     }
     controller.init(view)
