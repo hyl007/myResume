@@ -2,7 +2,7 @@
  * Created by Administrator on 2018/3/19.
  */
 !function(){
-    var view = document.querySelector('#topNarBar')
+    var view = View('#topNarBar')
     var controller ={
         view:null,
         init:function(view) {

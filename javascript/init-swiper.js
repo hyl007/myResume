@@ -2,7 +2,7 @@
  * Created by Administrator on 2018/3/19.
  */
 !function(){
-    var view = document.querySelector('.swiper-container')
+    var view = View('.swiper-container')
     var controller ={
         view:null,
         swiper:null,

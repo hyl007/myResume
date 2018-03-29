@@ -3,7 +3,7 @@
  */
 //锚点动画
 !function(){
-    var view =document.querySelector('nav.menu')
+    var view =View('nav.menu')
     var controller={
         view:null,
         aTags:null,

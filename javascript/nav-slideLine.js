@@ -3,7 +3,7 @@
  */
 //导航下滑横线
 !function(){
-    var view =document.querySelector('nav.menu')
+    var view =View('nav.menu')
     var controller={
         view:null,
         liTags:null,
