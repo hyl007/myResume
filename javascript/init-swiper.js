@@ -12,6 +12,7 @@
         },
         swiperOptions:{
             loop: true,
+            speed:900,
             pagination: {
                 el: '.swiper-pagination',
             },

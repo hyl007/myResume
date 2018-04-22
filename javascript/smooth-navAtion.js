@@ -35,10 +35,11 @@
         scrollToElement:function(element){
             let top = element.offsetTop
             let currentTop = window.scrollY//页面到视口的高度
-            let targetTop = top - 63//目标高度
+            let targetTop = top - 110//目标高度
             let s=targetTop-currentTop//路程
             var t=Math.abs((s/100)*300)//时间
-            if (t>700){t=700}
+            if (t>900){t=900}
+
 
             var coords = { y:currentTop }; // 起始位置
             var tween = new TWEEN.Tween(coords)

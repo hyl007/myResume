@@ -3,9 +3,7 @@
  */
 !function(){
     let  speciaTags = document.querySelectorAll('[data-x]')
-    for(let i =0;i<speciaTags.length;i++){
-        speciaTags[i].classList.add('offset')
-    }
+
     findClosestAndRemoveOffset()
     window.addEventListener('scroll',function(x){
         findClosestAndRemoveOffset()
