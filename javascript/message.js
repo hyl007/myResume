@@ -40,7 +40,6 @@
             this.model.fetch().then((messages)=>{
                 let array=messages.map((item)=>item.attributes)
                 array.forEach((item)=>{
-                    console.log(item)
                     let li = document.createElement('li')
                     li.innerText=` ${item.name}: ${item.content}`
                     messageList.appendChild(li)

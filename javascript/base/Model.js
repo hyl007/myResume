@@ -11,9 +11,6 @@ window.Model=function(options){
         },
         fetch:function(){
             let query = new AV.Query(resourceName);
-            var now = new Date();
-            query.lessThanOrEqualTo('createdAt', now);//查询今天之前创建的 Todo
-            query.limit(6);// 最多返回 10 条结果
             return query.find()//返回一个promise对象
         },
         save:function(object){
